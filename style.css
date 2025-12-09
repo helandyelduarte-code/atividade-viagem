@@ -1,0 +1,256 @@
+@font-face{
+    font-family: Inter ;
+    src: url(./assents/font/Inter-VariableFont_opsz\,wght.ttf) ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Inter ;
+    }
+    
+    body{ background-color: #ffffff;
+        margin: 20px;
+    }
+    .caixa-inicio{
+        background-color: cornflowerblue;
+      
+    }
+    li a{
+    
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 20px;}
+       
+ul{
+ display: flex;
+ justify-content: row;
+ align-items: center;
+}
+          
+li{ 
+list-style: none;
+}
+          
+nav{         
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: #ffffff;
+}
+
+.botao-login{
+    background-color: orangered;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100px;
+   width: 80px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.btn-pesquisa{
+    color: darkgray;
+}
+.barra-pesquisa{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.section-banner{
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banner{
+    width: 1800px;
+    height: 700px;
+    background-image: url(./assents/Section.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txt-baner1{
+    font-size: 100px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.txt-baner2{
+    font-size: 20px;
+    color: #ffffff;   
+    margin: 10px;
+    font-weight: 300;
+}
+.caixa-datas-geral{
+    width: 950px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-datas1{
+    width: 230px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.quadrado{
+    width: 40px;
+    height: 40px;
+ border-radius: 5px;
+ border:1px solid darkgray;
+
+}
+.txt-datas{
+    color: black;
+}
+.txt-datas2{
+    color: darkgray;
+}
+.texto-lado-quadrado{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.caixa-btn-laranja{
+    background-color: orangered;
+    width: 170px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-boxlaranja{
+color: #ffffff;
+font-weight: bold;
+}
+.quadrado-laranja{
+    width: 30px;
+    height: 30px;
+}
+
+
+.box-section2{
+    width: 1400px;
+height: 300px;
+margin: 30px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.txt-boxdois{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.caixa-boxsection2{
+    width: 300px;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+   gap: 10px;
+}
+.titulo-sec2{
+    font-weight: 500;
+}
+.p2{
+    font-weight: 300;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.pspace{
+    margin: 10px;
+}
+.paises{
+    width: 1400px;
+    height: 390px;
+}
+.radius-paises{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.sub-paises{
+    width: 135px;
+    height: 200x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.caixa-txt-paises{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.paisagens{
+      width: 1900px;
+    height: 1940.63px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.box-individual-p{
+    width: 300px;
+    height: 388.31px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    gap: 5px;
+}
+.img-paisagens{
+    border-radius: 15px;
+   
+}
+.dk{
+    color: darkgray;
+    font-weight: 400;
+    font-size: 12.29px;
+    padding: 10px;
+}
+.txt-paisagens{
+ width: 80%;
+ background-color: bisque;
+}
+.txt-paisagens-2{
+    font-weight: 400;
+    font-size: 12.29px;
+}
+.agaerre{
+    width: 260px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    background-color: azure;
+}
+.box-paisagenspt1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: blue;
+}
